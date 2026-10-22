@@ -1,6 +1,8 @@
 # 🗺️ KIOT Campus Navigation System
 ### Knowledge Institute of Technology (KIOT), Kakapalayam, Salem, Tamil Nadu
 
+> 🚀 **Live Demo:** [https://logajevin.github.io/kiot-campus-nav/](https://logajevin.github.io/kiot-campus-nav/)
+
 An interactive, responsive campus wayfinding and navigation web application engineered specifically for **Knowledge Institute of Technology (KIOT)**. Built with **React 19, TypeScript, Leaflet, and Tailwind CSS**.
 
 ![KIOT Campus Navigation](https://img.shields.io/badge/Campus-KIOT%20Salem-blue?style=for-the-badge)
