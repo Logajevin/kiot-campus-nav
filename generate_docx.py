@@ -363,7 +363,7 @@ def create_report():
         "Step-Free Accessibility routing filter that dynamically avoids stairwells, selectively routing transit via elevators and ramps. "
         "Furthermore, a physical QR-code localization module resolves indoor 'You Are Here' starting coordinates instantaneously, "
         "eliminating reliance on costly hardware beacons. The resulting web application is built with React 19, TypeScript, Leaflet, "
-        "and Tailwind CSS, achieving zero-cost cloud hosting via GitHub Pages with full offline Progressive Web App (PWA) caching."
+        "and Tailwind CSS, achieving high performance with full offline Progressive Web App (PWA) caching."
     )
 
     doc.add_page_break()
@@ -404,7 +404,7 @@ def create_report():
     add_bullet("To implement an interactive floor switcher allowing users to inspect individual storeys and corridor arrangements.", "3. ")
     add_bullet("To develop a Step-Free Accessible route toggle that bypasses staircases for wheelchair users.", "4. ")
     add_bullet("To incorporate QR-code wayfinding enabling users to pinpoint their current location instantly by scanning corridor tags.", "5. ")
-    add_bullet("To host and deploy the web application globally on GitHub Pages with automated CI/CD pipeline.", "6. ")
+    add_bullet("To host and deploy the web application for institutional campus intranet access.", "6. ")
 
     add_subheading("1.5", "Scope of the Project")
     add_body(
@@ -501,7 +501,7 @@ def create_report():
     add_bullet("Mapping Library: Leaflet 1.9 & React-Leaflet 5.0", "4. ")
     add_bullet("Styling Framework: Tailwind CSS v4", "5. ")
     add_bullet("Iconography: Lucide React", "6. ")
-    add_bullet("Hosting: GitHub Pages (Global CDN with automated CI/CD)", "7. ")
+    add_bullet("Deployment: Institutional Campus Intranet / Localhost Environment", "7. ")
 
     add_subheading("4.2", "Detailed Explanation of Software Tools")
     add_body(
@@ -519,8 +519,8 @@ def create_report():
         "accessible, and visually modern mobile drawers, modal dialogs, and navigation controls."
     )
     add_body(
-        "GitHub Pages Deployment: The application is packaged into optimized static assets and published to GitHub Pages, "
-        "providing free, high-availability global hosting backed by GitHub's content delivery network."
+        "Institutional Deployment: The application is packaged into optimized static client assets, easily deployable across "
+        "internal campus web servers or operated locally across student and faculty computing devices."
     )
 
     doc.add_page_break()
@@ -628,7 +628,7 @@ def create_report():
         "By modeling the Knowledge Institute of Technology (KIOT) campus as a weighted topological graph and implementing Dijkstra's "
         "algorithm in React and TypeScript, the system solves real-world orientation challenges for students, faculty, recruiters, "
         "and visitors. The application features multi-floor indoor blueprints, wheelchair accessibility routing, instant directory search, "
-        "and QR-code origin resolution. It is fully deployed and accessible live on GitHub Pages at https://logajevin.github.io/kiot-campus-nav/."
+        "and QR-code origin resolution, ready for campus-wide deployment across internal servers."
     )
 
     add_subheading("7.2", "Future Enhancements")
@@ -735,7 +735,7 @@ def create_report():
     add_body(
         "[Interactive 2D View centered on KIOT Salem (Kakapalayam) with color-coded polygon boundaries "
         "for CSE/IT Block, Admin Block, KBSS Block, Library, Hostels, and dynamic navigation polyline connecting Main Gate to destination.]\n"
-        "Live URL: https://logajevin.github.io/kiot-campus-nav/",
+        "Deployment: Institutional Intranet / Localhost Environment",
         space_after=14
     )
 
@@ -758,7 +758,7 @@ def create_report():
         "[Camera viewfinder overlay and one-click location simulation buttons for rapid origin setting without GPS drift.]"
     )
 
-    out_path = r"C:\Users\JEVIN\kiot-campus-nav\KIOT_Campus_Navigation_Report.docx"
+    out_path = r"C:\Users\JEVIN\kiot-campus-nav\KIOT_Campus_Navigation_Report_Final.docx"
     doc.save(out_path)
     print(f"Report saved successfully to: {out_path}")
 

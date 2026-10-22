@@ -283,7 +283,7 @@ def create_presentation():
         "Mapping & GIS Engine: Leaflet.js & React-Leaflet with OpenStreetMap tiles and custom GeoJSON polygon layers.",
         "Styling & UI Library: Tailwind CSS v4 (Mobile-first responsive styling) and Lucide React icons.",
         "Core Algorithms & Data Structures: Weighted Undirected Graph, Adjacency Lists, Priority Queues, Dijkstra's Algorithm.",
-        "Hosting & Deployment: GitHub Pages with automated CI/CD deployment pipeline."
+        "Hosting & Deployment: Institutional Web Server / Campus Intranet."
     ]
     for i, it in enumerate(items_s6):
         p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
@@ -536,8 +536,8 @@ def create_presentation():
     tf.margin_top = Inches(0.4)
 
     items_s12 = [
-        "Advantages: 100% free hosting and deployment ($0 maintenance cost on GitHub Pages without proprietary API bills).",
-        "Advantages: Instant client-side computation running directly in the browser; works even in areas with spotty cellular coverage.",
+        "Advantages: Zero infrastructure cost, client-side computation running directly in modern web browsers.",
+        "Advantages: High computational speed; operates reliably even in areas with spotty cellular coverage.",
         "Advantages: Multi-floor support and wheelchair step-free accessibility promote institutional inclusivity.",
         "Limitations: Graph database requires manual updates when new physical structures or temporary barriers are erected.",
         "Limitations: Relies on physical QR markers for indoor positioning rather than active Bluetooth BLE beacon triangulation.",
@@ -572,8 +572,8 @@ def create_presentation():
         "The project successfully implements an end-to-end Campus Navigation & Wayfinding Web Application for Knowledge Institute of Technology (KIOT), Salem.",
         "Effectively bridges academic Data Structures and Algorithms (graphs, adjacency lists, Dijkstra's algorithm) with practical spatial engineering.",
         "Solves real-world orientation challenges for freshers, visiting company recruiters, parents, and symposium participants.",
-        "Achieves institutional sustainability with zero infrastructure costs, high accessibility, and mobile-friendly usability.",
-        "Successfully hosted, verified, and live on GitHub Pages: https://logajevin.github.io/kiot-campus-nav/."
+        "Achieves institutional sustainability with high accessibility and mobile-friendly usability.",
+        "Demonstrates complete operational functionality for the Capstone Project Work."
     ]
     for i, it in enumerate(items_s13):
         p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
@@ -620,7 +620,7 @@ def create_presentation():
     p.space_after = Pt(20)
 
     p = tf14.add_paragraph()
-    p.text = "Live Web App: https://logajevin.github.io/kiot-campus-nav/\nGitHub Repository: https://github.com/Logajevin/kiot-campus-nav"
+    p.text = "Department of Computer Science and Engineering\nKnowledge Institute of Technology, Salem"
     p.font.size = Pt(13)
     p.font.color.rgb = RGBColor(148, 163, 184)
     p.alignment = PP_ALIGN.CENTER
